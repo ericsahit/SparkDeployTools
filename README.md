@@ -1,5 +1,6 @@
-#Spark部署工具
+# Spark自动部署工具
 
+**本工具有一些需要Expect工具的支持实现SSH用户名和密码自动登录。**
 
 ##  1. linux\mscp
 一键多节点拷贝，使用expect进行远程ssh登陆。可以实现自动解压缩tar文件，自动递归拷贝目录。会调用`multicopy_server.sh`，在远程实现分发拷贝。
